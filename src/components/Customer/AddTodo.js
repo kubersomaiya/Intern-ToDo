@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Alert, Button, ButtonGroup, Card, Col, Container, Form, InputGroup, Navbar, Row } from 'react-bootstrap';
+import { Alert, Button, ButtonGroup, Card, Container, Form, InputGroup, Navbar} from 'react-bootstrap';
 import { useAuth } from '../../contexts/AuthContext';
-import TodoList from './TodoList';
+// import TodoList from './TodoList';
 import {todoDataService} from "../../Services/crudFirebase"
-import userDataService from "../../Services/crudFirebase"
+// import userDataService from "../../Services/crudFirebase"
 
 export default function AddTodo({id , getTodoId}){
     const [todo, setTodo] = useState("");

@@ -2,10 +2,7 @@ import React, { useRef, useState } from "react";
 import { Card, Form, Button, Alert } from "react-bootstrap";
 import { useAuth } from "../../contexts/AuthContext";
 import { NavLink, useNavigate } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-// import "../../../src/styles.css"
-const eye = <FontAwesomeIcon icon={faEye} />;
+
 
 export default function Login() {
   const emailRef = useRef();

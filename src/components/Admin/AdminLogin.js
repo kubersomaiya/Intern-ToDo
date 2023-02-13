@@ -2,9 +2,6 @@ import React, { useRef, useState } from "react";
 import { Alert, Button, Card, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
-// import { faEye } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// const eye = <FontAwesomeIcon icon={faEye} />;
 
 const AdminLogin = () => {
   const emailRef = useRef();

@@ -1,5 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
+
 import { Container } from "react-bootstrap";
 import AuthProvider from "../contexts/AuthContext";
 import Signup from "./Customer/Signup";
@@ -17,7 +16,6 @@ import AdminLogin from "./Admin/AdminLogin";
 import AdminPanel from "./Admin/AdminPanel";
 import AdminRoute from "./Admin/AdminRoute";
 import TodoTable from "./Admin/TodoTable";
-// import Panel from "./Admin/Panel";
 
 function App() {
   const[userId, setUserId] = useState();

@@ -8,8 +8,6 @@ import "../../styles.css";
 import { setDoc, doc, serverTimestamp } from "firebase/firestore";
 import { db } from "../../firebase";
 import { collection, addDoc } from "firebase/firestore";
-// const eye = <FontAwesomeIcon icon="fa-regular fa-eye" />;
-const eye = <FontAwesomeIcon icon={faEye} />;
 
 export default function Signup() {
   const nameRef = useRef();
