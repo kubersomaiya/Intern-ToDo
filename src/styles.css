@@ -1,0 +1,55 @@
+/* .hideshowsignup {
+    position: absolute;
+    top: 64%;
+    right: 10%;
+  }
+  i:hover {
+    color: #0d6efd;
+    cursor: pointer;
+  }
+*/
+  
+ 
+  .showhide {
+    position: absolute;
+    top: 56%;
+    right: 10%;
+  }
+  button {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .avatar12{
+    vertical-align: middle;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: gray;
+    border-style: outset;
+    margin-top: 1.5rem;
+    margin-left: 76px;
+  }
+  
+  .indent{
+    display: flex;
+    flex-direction: row;
+  }
+  
+.noHover{
+    cursor: not-allowed;
+}
+
+.navHead{
+  border-radius: 5px;
+}
+
+.orangeDiv{
+  background-color: orange;
+}
+
+.orBtn:hover{
+  color: white
+}
